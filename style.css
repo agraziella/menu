@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  width: 1440px;
+  padding: 16px var(--10, 80px);
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+.elements{
+  display: flex;
+width: 1280px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+}
+
+.logo {
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.logo-text{
+  font-family: Nunito;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px; /* 84.375% */
+background: linear-gradient(90deg, #5C818D 0.17%, #7E9BA0 263.07%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.nav-container{
+  display: flex;
+width: 760px;
+height: 48px;
+padding: 8px 0px;
+justify-content: flex-end;
+align-items: center;
+gap: var(--5, 40px);
+flex-shrink: 0;
+}
+
+.nav-lists{
+  display: flex;
+width: 760px;
+height: 48px;
+padding: 8px 0px;
+justify-content: flex-end;
+align-items: center;
+gap: var(--5, 40px);
+flex-shrink: 0;
+}
+
+.nav-lists a {
+  color: #204551;
+  text-decoration: none; /* Remove o sublinhado */
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 135% */
+}
+
+.nav-lists a:hover {
+  color: #265361;
+  transform: scale(1.1); /* Aumenta o tamanho do link no hover */
+}
